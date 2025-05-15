@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s
+}
+
+header img {
+    border-radius: 30px;
+}
+
+
+header {
+    background-color: rgb(63, 221, 233);
+    text-align: center;
+    padding: 12px;
+}
+
+header nav {
+    margin-top: 10px;
+
+}
+
+header nav a {
+    color: black;
+    text-transform: uppercase;
+    padding: 35px 30px;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+
+
+}
+
+
+.banner h1 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.banner a {
+    background-color: rgb(58, 183, 237);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.banner a:hover {
+    background-color: cyan;
+    transform: scale(1.2)
+}
+
+.nossos-servicos h2 {
+
+    font-size: 2em;
+    padding: 50px 0px;
+}
+
+.nossos-servicos div {
+    width: 280px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 17px;
+
+    box-shadow: 6px 4px 13px 0px gray;
+    display: block;
+
+}
+
+.nossos-servicos div h3 {
+    color: cyan;
+    margin: 10px 0px;
+    font-size: 1.7em;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: rgb(63, 221, 233);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 20px 0px;
+}
+
+footer nav a {
+    color: black;
+    text-transform: uppercase;
+    padding: 35px 30px;
+}
+
+footer img {
+    border-radius: 30px;
+}
+
+.direitos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 350px;
+    height: 190px;
+
+}
+
+.bolsonaro {
+    max-width: 350px;
+    max-height: 190px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+}
+
+
+.quem_somos {
+    width: 280px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 20px;
+
+    box-shadow: 6px 4px 13px 0px gray;
+    display: block;
+}
+
+.titulo_quem {
+    font-size: 2em;
+}
+
+section h4 {
+    font-size: 2em;
+}
+
+.blog {
+    right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+    max-width: 200px;
+    height: 325px;
+
+}
+
+.calculadora {
+    max-width: 220px;
+    max-height: 200px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 2px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.5s ease-out;
+}
+
+form p {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(52, 152, 219, 0.2);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button[type="reset"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #f30b0b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="reset"]:hover {
+    background-color: #c52626;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
