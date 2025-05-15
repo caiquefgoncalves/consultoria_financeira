@@ -80,8 +80,24 @@ header nav a {
     font-size: 17px;
 
     box-shadow: 6px 4px 13px 0px gray;
-    display: block;
+    display: inline-block;
 
+}
+
+.consulta{
+    background-color: #0264a5e7;
+    color: white;
+}
+
+.plano{
+    background-color: #0171bce7;
+        color: white;
+    
+}
+
+.assessoria{
+  background-color: #0084dbe7 ;
+  color: white;
 }
 
 .nossos-servicos div h3 {
@@ -122,6 +138,8 @@ figure {
     padding: 5px;
     max-width: 350px;
     height: 190px;
+    display: inline-block;
+    margin: 30px;
 
 }
 
@@ -147,10 +165,12 @@ figcaption {
 
     box-shadow: 6px 4px 13px 0px gray;
     display: block;
+    
 }
 
 .titulo_quem {
     font-size: 2em;
+    margin: 30px;
 }
 
 section h4 {
