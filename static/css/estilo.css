@@ -66,6 +66,11 @@ header nav a {
     transform: scale(1.2)
 }
 
+nav a:hover {
+    color: white;
+    transform: scale(0.1)
+}
+
 .nossos-servicos h2 {
 
     font-size: 2em;
